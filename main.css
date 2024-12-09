@@ -79,7 +79,7 @@ body {
     align-items: flex-start;
 }
 
-#aboutme
+/* #aboutme
 {
     position: relative;
     display: flex;
@@ -95,6 +95,8 @@ body {
     float: right;
     display: flex;
 }
+
+*/
 
 .text
 {
@@ -136,6 +138,7 @@ body {
     border-radius: 20px;
 }
 
+/*
 .contact
 {
     display: flex;
@@ -164,7 +167,66 @@ body {
     size: 10px;
     padding: 5px;
 }
+*/
 
+#aboutme {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.aboutmeContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    padding: 10px;
+    margin-top: 10px;
+    flex: 2; /* Daje więcej miejsca na tekst */
+}
+
+#programs {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap; /* Umożliwia zawijanie obrazków w dwa rzędy */
+    justify-content: space-around; /* Ustawia obrazy równomiernie w poziomie */
+    margin-left: 20px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap; /* Umożliwia zawijanie obrazków */
+    gap: 10px; /* Odstęp między obrazkami */
+}
+
+.image {
+    width: 45%; /* Ustawia obrazki na około 45% szerokości, by zmieściły się w dwóch rzędach */
+    margin-bottom: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    justify-content: center;
+    color: #000000;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #030303;
+    border-radius: 8px;
+    position: absolute;
+    top: 60%;
+    right: 70%;
+    transform: translate(-50%);
+    background-color: #f1f1e9;
+}
+
+/*
 #programs
 {
     width: 15%;
@@ -189,6 +251,8 @@ body {
     height: auto; 
     object-fit: cover;
 }
+
+*/
 
 #cv
 {
