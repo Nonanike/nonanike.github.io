@@ -210,13 +210,13 @@ body {
     flex: 2;
 }
 
-/* #programs {
+#programs {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-left: 20px;
-} */
+}
 
 /* .images {
     display: flex;
@@ -262,7 +262,7 @@ body {
     background-color: #f1f1e9;
 }
 
-#programs
+/* #programs
 {
     width: 15%;
     top: 35%;
@@ -270,7 +270,7 @@ body {
     padding: 5px;
     border-left: 2px dotted #333;
     border-right: 2px dotted #333;
-}
+} */
 
 .images
 {
