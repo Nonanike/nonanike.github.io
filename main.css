@@ -27,9 +27,10 @@
     }
   }
 
+
 body {
     margin: 0;
-/*     font-family: 'Lato', sans-serif; */
+    /* font-family: 'Lato', sans-serif; */
     font-family: 'MyCustomFont', sans-serif;
     color: black;
     background-color: #FDFFE1;
@@ -43,6 +44,11 @@ body {
     max-width: 1200px;
     padding: 20px;
 }
+
+/* #blank
+{
+    padding: 20px;
+} */
 
 #logo
 {
@@ -73,7 +79,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.menu-item a: hover {
+.menu-item a:hover {
     background-color: #bdbbb1;
     border-radius: 4px;
 }
@@ -89,62 +95,33 @@ body {
 
 #showreel
 {
-    display: center;
     color: #000000;
     text-align: center;
     padding: 20px;
     align-items: flex-start;
 }
 
-/*
-.contact
+#aboutme
 {
+    position: relative;
     display: flex;
-    flex-direction: column;
-    float: right;
-    display: inline;
-    justify-content: center;
-    color: #000000;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 2px solid #030303;
-    border-radius: 8px;
-
-    position: absolute;
-    top: 60%;
-    right: 70%;
-    transform: translate(-50%);
-
-    background-color: #f1f1e9;
-
-}
-
-.contact-item
-{
-    size: 10px;
-    padding: 5px;
-}
-*/
-
-#aboutme {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
-}
-
-.aboutmeContainer {
-    flex: 1;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    padding: 10px;
+    top: 50%;
+    color: black;
 }
 
-.text {
+.aboutmeContainer
+{
+    float: right;
+    display: flex;
+}
+
+.text
+{
     padding: 10px;
     margin-top: 10px;
-    flex: 2;
 }
 
 #github a
@@ -181,24 +158,44 @@ body {
     border-radius: 20px;
 }
 
-#programs {
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-left: 20px;
+.contact
+{
+    /* display: flex;
+    flex-direction: column; */
+    float: right;
+    display: inline;
+    justify-content: center;
+    color: #000000;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #030303;
+    border-radius: 8px;
+
+    position: absolute;
+    top: 60%;
+    right: 70%;
+    transform: translate(-50%);
+
+    background-color: #f1f1e9;
+
 }
 
-/* .images {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+.contact-item
+{
+    size: 10px;
+    padding: 5px;
 }
 
-.image {
-    width: 45%;
-    margin-bottom: 10px;
-} */
+#programs
+{
+    width: 15%;
+    top: 35%;
+    text-align: center;
+    padding: 5px;
+    border-left: 2px dotted #333;
+    border-right: 2px dotted #333;
+}
 
 .images
 {
@@ -215,69 +212,25 @@ body {
     object-fit: cover;
 }
 
-.contact {
-    display: flex;
-    flex-direction: column;
-    float: right; */
-    justify-content: center;
-    color: #000000;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 2px solid #030303;
-    border-radius: 8px;
-/*     position: absolute; */
-/*     top: 60%;
-    right: 70%; */
-    transform: translate(-50%);
-    background-color: #f1f1e9;
-}
-
-/* #programs
-{
-    width: 15%;
-    top: 35%;
-    text-align: center;
-    padding: 5px;
-    border-left: 2px dotted #333;
-    border-right: 2px dotted #333;
-} */
-
-/* .images
-{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    padding: 5px;
-}
-
-.image{
-    width: 50px;
-    height: auto; 
-    object-fit: cover;
-} */
-
-
 #cv
 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 5px;
+    gap: 20px;
+    padding: 20px;
 }
 
 #cv2
 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 5px;
+    gap: 20px;
+    padding: 20px;
 }
 
 .cv-item
 {
-    padding: 5px;
+    padding: 20px;
     text-align: center;
     border: 2px solid #000000;
     background-color: #f1f1e9;
@@ -287,7 +240,7 @@ body {
 {
     text-align: center;
     list-style-type: disc;
-    margin: 5px;
+    margin: 20px;
     padding: 0px;
 }
 
