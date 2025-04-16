@@ -190,7 +190,7 @@ body {
 }
 */
 
-#aboutme {
+/* #aboutme {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -199,6 +199,25 @@ body {
 
 .aboutmeContainer {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    padding: 10px;
+    margin-top: 10px;
+    flex: 2;
+} */
+
+#aboutme {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.aboutmeContainer {
     display: flex;
     justify-content: center;
     align-items: center;
