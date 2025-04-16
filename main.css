@@ -229,7 +229,7 @@ body {
     margin-bottom: 10px;
 } */
 
-/* .images
+.images
 {
     display: flex;
     flex-wrap: wrap;
@@ -242,7 +242,7 @@ body {
     width: 25px;
     height: auto; 
     object-fit: cover;
-} */
+}
 
 .contact {
 /*     display: flex;
@@ -272,7 +272,7 @@ body {
     border-right: 2px dotted #333;
 } */
 
-.images
+/* .images
 {
     display: flex;
     flex-wrap: wrap;
@@ -285,7 +285,7 @@ body {
     width: 50px;
     height: auto; 
     object-fit: cover;
-}
+} */
 
 
 #cv
