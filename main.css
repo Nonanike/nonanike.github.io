@@ -44,11 +44,6 @@ body {
     padding: 20px;
 }
 
-/* #blank
-{
-    padding: 20px;
-} */
-
 #logo
 {
     color: black;
@@ -78,7 +73,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.menu-item a:hover {
+.menu-item a: hover {
     background-color: #bdbbb1;
     border-radius: 4px;
 }
@@ -94,69 +89,11 @@ body {
 
 #showreel
 {
+    float: center;
     color: #000000;
     text-align: center;
     padding: 20px;
     align-items: flex-start;
-}
-
-/* #aboutme
-{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    top: 50%;
-    color: black;
-}
-
-.aboutmeContainer
-{
-    float: right;
-    display: flex;
-}
-
-*/
-
-/* .text
-{
-    padding: 10px;
-    margin-top: 10px;
-} */
-
-#github a
-{
-    color: #531bac;
-    text-align: center;
-    text-decoration: none;
-}
-
-#linkedin
-{
-    display: inline-block;
-    justify-content: center;
-    color: #000000;
-    background-color: #7ac4f5;
-    padding: 10px 20px;
-    margin: 10px;
-    border: 2px solid #030303;
-    border-radius: 8px; 
-}
-
-#linkedin a
-{
-    color: #000000;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 15px;
-    transition: background-color 0.3s ease;
-}
-
-#linkedin a:hover
-{
-    background-color: #072757;
-    border-radius: 20px;
 }
 
 /*
@@ -210,8 +147,42 @@ body {
     flex: 2;
 }
 
+#github a
+{
+    color: #531bac;
+    text-align: center;
+    text-decoration: none;
+}
+
+#linkedin
+{
+    display: inline-block;
+    justify-content: center;
+    color: #000000;
+    background-color: #7ac4f5;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #030303;
+    border-radius: 8px; 
+}
+
+#linkedin a
+{
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+#linkedin a:hover
+{
+    background-color: #072757;
+    border-radius: 20px;
+}
+
 #programs {
-    flex: 1;
+/*     flex: 1; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
