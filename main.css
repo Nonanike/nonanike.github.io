@@ -198,8 +198,8 @@ body {
 }
 
 .aboutmeContainer {
-/*     flex: 1;
-    display: flex; */
+    flex: 1;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -210,13 +210,13 @@ body {
     flex: 2;
 }
 
-#programs {
+/* #programs {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-left: 20px;
-}
+} */
 
 /* .images {
     display: flex;
@@ -229,7 +229,7 @@ body {
     margin-bottom: 10px;
 } */
 
-.images
+/* .images
 {
     display: flex;
     flex-wrap: wrap;
@@ -242,12 +242,12 @@ body {
     width: 25px;
     height: auto; 
     object-fit: cover;
-}
+} */
 
 .contact {
-    display: flex;
+/*     display: flex;
     flex-direction: column;
-    float: right;
+    float: right; */
     justify-content: center;
     color: #000000;
     padding: 10px;
@@ -262,7 +262,6 @@ body {
     background-color: #f1f1e9;
 }
 
-/*
 #programs
 {
     width: 15%;
@@ -288,27 +287,26 @@ body {
     object-fit: cover;
 }
 
-*/
 
 #cv
 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    padding: 5px;
 }
 
 #cv2
 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    padding: 5px;
 }
 
 .cv-item
 {
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     border: 2px solid #000000;
     background-color: #f1f1e9;
@@ -318,7 +316,7 @@ body {
 {
     text-align: center;
     list-style-type: disc;
-    margin: 20px;
+    margin: 5px;
     padding: 0px;
 }
 
