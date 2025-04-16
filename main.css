@@ -30,7 +30,7 @@
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
-    font-family: 'MyCustomFont', sans-serif;
+/*     font-family: 'MyCustomFont', sans-serif; */
     color: black;
     background-color: #FDFFE1;
     background-size: cover;
