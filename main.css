@@ -249,15 +249,30 @@ body {
         align-items: center;
     }
 
-    #aboutme, #showreel {
+    #showreel {
+        order: 1;
         max-width: 90%;
         width: 100%;
         margin: 10px 0;
     }
 
+    #aboutme {
+        order: 2;
+        max-width: 90%;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+/*     #aboutme, #showreel {
+        max-width: 90%;
+        width: 100%;
+        margin: 10px 0;
+    } */
+
     #programs {
         max-width: 90%;
         width: 100%;
+        order: 3;
     }
 
     iframe {
@@ -290,7 +305,7 @@ body {
         padding: 5px 10px;
     }
 
-    .responsive-video {
+/*     .responsive-video {
         position: relative;
         width: 100%;
         max-width: 100%;
@@ -305,6 +320,6 @@ body {
         width: 100%;
         height: 100%;
         border: none;
-    }
+    } */
     
 }
