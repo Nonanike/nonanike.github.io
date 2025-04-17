@@ -45,11 +45,6 @@ body {
     padding: 20px;
 }
 
-/* #blank
-{
-    padding: 20px;
-} */
-
 #logo
 {
     color: black;
@@ -207,7 +202,7 @@ body {
 }
 
 .image{
-    width: 25x;
+    width: 25px;
     height: auto; 
     object-fit: cover;
 }
