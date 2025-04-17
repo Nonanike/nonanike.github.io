@@ -287,6 +287,8 @@ body {
     .responsive-video {
         position: relative;
         width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
         padding-bottom: 56.25%; /* proporcje 16:9 */
         height: 0;
         overflow: hidden;
