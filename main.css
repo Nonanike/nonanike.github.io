@@ -307,10 +307,10 @@ body {
 
     .video-container {
         position: relative;
-        padding-bottom: 56.25%; /* proporcja 16:9 */
-        height: 0;
-        overflow: hidden;
+        width: 100%;
         max-width: 100%;
+        aspect-ratio: 16 / 9;
+        margin: 0 auto;
     }
     
     .video-container iframe {
