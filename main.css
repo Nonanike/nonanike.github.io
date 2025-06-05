@@ -307,13 +307,15 @@ body {
 }
         
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 16px;
     padding: 20px;
+    justify-content: space-between;
 }
 
 .gallery-item {
+    width: calc(33.33% - 16px);
     background-color: #fff;
     padding: 10px;
     border-radius: 8px;
@@ -326,4 +328,16 @@ body {
     height: auto;
     display: block;
     border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        width: calc(50% - 16px);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%; 
+    }
 }
