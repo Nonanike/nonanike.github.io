@@ -297,14 +297,15 @@ body {
 
     .menu-item a {
         padding: 5px 10px;
-
-    /* freelance */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
     }
-            
+
+/* freelance */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        
     .gallery {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -326,6 +327,5 @@ body {
         display: block;
         border-radius: 8px;
     }
-        }
     
 }
